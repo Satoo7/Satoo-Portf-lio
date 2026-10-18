@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-geass-deep: #090810;
+  --color-geass-surface: #100D1A;
+  --color-geass-dark: #241536;
+  --color-geass-violet: #7546C8;
+  --color-geass-lilac: #BBA7F5;
+  --color-geass-white: #F2EFF8;
+
+  --font-display: "Outfit", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-brand: "Syne", sans-serif;
+  --font-cinematic: "Cinzel", serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #090810;
+  color: #F2EFF8;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+}
+
+.font-brand {
+  font-family: var(--font-brand);
+}
+
+.font-cinematic {
+  font-family: var(--font-cinematic);
+}
+
+/* Custom subtle ambient glow */
+.ambient-glow {
+  background: radial-gradient(
+    circle at 50% 30%,
+    rgba(117, 70, 200, 0.12) 0%,
+    rgba(36, 21, 54, 0.08) 45%,
+    transparent 70%
+  );
+}
+
+/* Custom scrollbar for video modal and gallery */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090810;
+}
+::-webkit-scrollbar-thumb {
+  background: #241536;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7546C8;
+}
