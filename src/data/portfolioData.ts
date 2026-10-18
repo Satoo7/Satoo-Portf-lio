@@ -94,7 +94,7 @@ export const portfolioProjects: VideoProject[] = [
     aspectRatio: '9:16',
     url: 'https://player.cloudinary.com/embed/?cloud_name=xkhxv70d&public_id=mrbeast.mp4',
     thumbnail: 'https://pbs.twimg.com/amplify_video_thumb/2110049649255911426/img/CbzEXF7Y0rrHGxi3.jpg',
-    tweetUrl: 'https://x.com/DSatoo_777/status/2110050658883961101',
+    tweetUrl: 'https://player.cloudinary.com/embed/?cloud_name=xkhxv70d&public_id=mrbeast.mp4',
     duration: '00:45',
     year: '2026',
     tag: 'Fast-Paced Hook',
