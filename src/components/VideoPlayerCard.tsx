@@ -59,10 +59,11 @@ export const VideoPlayerCard: React.FC<VideoPlayerCardProps> = ({
 
   const { embedUrl, isDirectVideo } = useMemo(() => formatEmbedUrl(project.url), [project.url]);
 
-  const toggleSound = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    const newMuted = !isMuted;
-    setIsMuted(newMuted);
+const toggleSound = (e: React.MouseEvent) => {
+  e.preventDefault();
+  e.stopPropagation();
+
+  const newMuted = !isMuted;
 
     if (isDirectVideo) {
       if (videoRef.current) {
