@@ -31,8 +31,7 @@ export const PortfolioGallery: React.FC<PortfolioGalleryProps> = ({ onExpandProj
           PROJECTS
         </h3>
         <p className="text-xs text-[#F2EFF8]/50 tracking-wider font-mono">
-          DIRECT FROM @DSATOO_777 · CLICK ANY VIDEO TO UNMUTE
-        </p>
+
       </div>
 
       {/* Filter Tabs */}
