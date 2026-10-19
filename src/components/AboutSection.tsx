@@ -8,7 +8,7 @@ export const AboutSection: React.FC = () => {
     title: 'Satoo Showreel & Vision',
     category: 'shorts' as const,
     aspectRatio: '1:1' as const,
-    url: 'https://video.twimg.com/amplify_video/2110066002574577664/vid/avc1/720x1280/OkB3KE_pcAy-QoAL.mp4?tag=14',
+    url: 'https://res.cloudinary.com/xkhxv70d/video/upload/v1792349995/reel.mp4.mp4',
     thumbnail: 'https://pbs.twimg.com/amplify_video_thumb/2110066002574577664/img/L1D0taf0RdDE040s.jpg',
     tweetUrl: 'https://x.com/DSatoo_777/status/2110068012942496184',
     duration: '00:47',
