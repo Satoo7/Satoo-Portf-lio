@@ -31,7 +31,6 @@ export const PortfolioGallery: React.FC<PortfolioGalleryProps> = ({ onExpandProj
           PROJECTS
         </h3>
         <p className="text-xs text-[#F2EFF8]/50 tracking-wider font-mono">
-
       </div>
 
       {/* Filter Tabs */}
