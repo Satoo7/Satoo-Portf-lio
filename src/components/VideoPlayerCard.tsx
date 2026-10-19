@@ -102,8 +102,12 @@ const toggleSound = (e: React.MouseEvent) => {
   loop
   playsInline
   preload="auto"
+  onCanPlay={(e) => {
+    const video = e.currentTarget;
+    video.muted = true;
+    video.play().catch(() => {});
+  }}
   className={`w-full h-full object-cover absolute inset-0 ${iframeClassName}`}
-/>
 />
       ) : (
         <iframe
