@@ -93,7 +93,7 @@ const toggleSound = (e: React.MouseEvent) => {
     >
       {/* Media Layer: iframe or video */}
       {isDirectVideo ? (
-        <video
+   <video
   ref={videoRef}
   src={embedUrl}
   poster={project.thumbnail}
@@ -101,7 +101,9 @@ const toggleSound = (e: React.MouseEvent) => {
   muted
   loop
   playsInline
+  preload="auto"
   className={`w-full h-full object-cover absolute inset-0 ${iframeClassName}`}
+/>
 />
       ) : (
         <iframe
